@@ -1,0 +1,15 @@
+{
+    "automock": false,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "js/**/*.{js, jsx}"
+    ],
+    "coverageThreshold": {
+        "global": {
+            "statements": 30,
+            "branches": 50,
+            "functions": 30,
+            "lines": 50
+        }
+    }
+}
